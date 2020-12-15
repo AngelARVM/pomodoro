@@ -3,8 +3,8 @@ var seconds = "00";
 var boolean = true
 var x = "#f05454"
 
-var click = new Audio("click.mp3")
-var bell = new Audio("bell.mp3")
+var click = new Audio("media/click.mp3")
+var bell = new Audio("media/bell.mp3")
 
 function template(){
 
