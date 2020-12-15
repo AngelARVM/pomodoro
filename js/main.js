@@ -30,8 +30,8 @@ function start() {
     document.getElementById("minutos").innerHTML = minutes;
     document.getElementById("segundos").innerHTML = seconds;
 
-    var minutes_interval = setInterval(minutesTimer, 6000) //default 60000
-    var seconds_interval = setInterval(secondsTimer, 100) // default 1000
+    var minutes_interval = setInterval(minutesTimer, 60000) //default 60000
+    var seconds_interval = setInterval(secondsTimer, 1000) // default 1000
 
     function minutesTimer(){
         minutes = minutes -1;
